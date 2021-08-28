@@ -1,0 +1,1120 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11E874C29047813C58E003B2 /* Pods_Claptone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD7A44539337071B8855663F /* Pods_Claptone.framework */; };
+		AD1F0A0E20E7985A005A7520 /* futur.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD1F09E820E79838005A7520 /* futur.ttf */; };
+		AD1F0A0F20E7985A005A7520 /* Futura Bold font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD1F09EC20E7983A005A7520 /* Futura Bold font.ttf */; };
+		AD1F0A1020E7985A005A7520 /* Futura Bold Italic font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD1F09F320E7983F005A7520 /* Futura Bold Italic font.ttf */; };
+		AD1F0A1120E7985A005A7520 /* Futura Book font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD1F09EB20E7983A005A7520 /* Futura Book font.ttf */; };
+		AD1F0A1220E7985A005A7520 /* Futura Book Italic font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD1F09F520E79840005A7520 /* Futura Book Italic font.ttf */; };
+		AD1F0A1320E7985A005A7520 /* Futura Extra Black font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD1F09F720E79841005A7520 /* Futura Extra Black font.ttf */; };
+		AD1F0A1420E7985A005A7520 /* Futura Heavy font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD1F09E620E79836005A7520 /* Futura Heavy font.ttf */; };
+		AD1F0A1520E7985A005A7520 /* Futura Heavy Italic font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD1F09F120E7983E005A7520 /* Futura Heavy Italic font.ttf */; };
+		AD1F0A1620E7985A005A7520 /* futura light bt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD1F09E920E79839005A7520 /* futura light bt.ttf */; };
+		AD1F0A1720E7985A005A7520 /* Futura Light font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD1F09EE20E7983D005A7520 /* Futura Light font.ttf */; };
+		AD1F0A1820E7985A005A7520 /* Futura Light Italic font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD1F09E720E79837005A7520 /* Futura Light Italic font.ttf */; };
+		AD1F0A1920E7985A005A7520 /* futura medium bt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD1F09ED20E7983C005A7520 /* futura medium bt.ttf */; };
+		AD1F0A1A20E7985A005A7520 /* futura medium condensed bt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD1F09F420E79840005A7520 /* futura medium condensed bt.ttf */; };
+		AD1F0A1B20E7985A005A7520 /* Futura Medium Italic font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD1F09EF20E7983D005A7520 /* Futura Medium Italic font.ttf */; };
+		AD1F0A1C20E7985A005A7520 /* Futura XBlk BT.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD1F09F620E79840005A7520 /* Futura XBlk BT.ttf */; };
+		AD1F0A1D20E7985A005A7520 /* Futura-CondensedLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = AD1F09F220E7983F005A7520 /* Futura-CondensedLight.otf */; };
+		AD1F0A1E20E7985A005A7520 /* tt0205m_.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD1F09F020E7983E005A7520 /* tt0205m_.ttf */; };
+		AD1F0A1F20E7985A005A7520 /* unicode.futurab.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD1F09EA20E79839005A7520 /* unicode.futurab.ttf */; };
+		AD1F0A2020E7985A005A7520 /* unicode.futurabb.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD1F09F920E79841005A7520 /* unicode.futurabb.ttf */; };
+		ADC43CDD20EB3CE900FF662D /* YTPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = ADC43CDC20EB3CE900FF662D /* YTPlayerView.m */; };
+		ADC43CE220EB3CF300FF662D /* Assets.bundle in Resources */ = {isa = PBXBuildFile; fileRef = ADC43CDF20EB3CF300FF662D /* Assets.bundle */; };
+		ADC43CE320EB3CF300FF662D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ADC43CE020EB3CF300FF662D /* Info.plist */; };
+		ADC43CE920EB3FA000FF662D /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC43CE820EB3F9F00FF662D /* HeaderView.swift */; };
+		ADC43CEB20EB3FC900FF662D /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADC43CEA20EB3FC900FF662D /* HeaderView.xib */; };
+		ADC43CEF20EB413400FF662D /* VideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC43CEE20EB413400FF662D /* VideoTableViewCell.swift */; };
+		ADC43CF220EB444B00FF662D /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC43CF120EB444B00FF662D /* VideoViewController.swift */; };
+		ADC43CFE20EBC14300FF662D /* (null) in Embed Frameworks */ = {isa = PBXBuildFile; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		ADC43D0020EBC14300FF662D /* (null) in Embed Frameworks */ = {isa = PBXBuildFile; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		ADC43D0220EBC14300FF662D /* (null) in Embed Frameworks */ = {isa = PBXBuildFile; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		ADC43D0D20EBC14300FF662D /* (null) in Embed Frameworks */ = {isa = PBXBuildFile; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		ADDB9CD920E7611100D7C663 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDB9CD820E7611100D7C663 /* AppDelegate.swift */; };
+		ADDB9CDB20E7611100D7C663 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDB9CDA20E7611100D7C663 /* ViewController.swift */; };
+		ADDB9CDE20E7611100D7C663 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADDB9CDC20E7611100D7C663 /* Main.storyboard */; };
+		ADDB9CE120E7611100D7C663 /* Claptone.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ADDB9CDF20E7611100D7C663 /* Claptone.xcdatamodeld */; };
+		ADDB9CE320E7611F00D7C663 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADDB9CE220E7611F00D7C663 /* Assets.xcassets */; };
+		ADDB9CE620E7611F00D7C663 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADDB9CE420E7611F00D7C663 /* LaunchScreen.storyboard */; };
+		ADDB9CF120E7611F00D7C663 /* ClaptoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDB9CF020E7611F00D7C663 /* ClaptoneTests.swift */; };
+		ADDB9CFC20E7611F00D7C663 /* ClaptoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDB9CFB20E7611F00D7C663 /* ClaptoneUITests.swift */; };
+		ADE0837820E9E47E00393B0A /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE0837720E9E47E00393B0A /* RegistrationViewController.swift */; };
+		ADE0837B20E9E4C800393B0A /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE0837A20E9E4C800393B0A /* SignInViewController.swift */; };
+		ADE0837E20E9E4F200393B0A /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE0837D20E9E4F200393B0A /* ForgotPasswordViewController.swift */; };
+		ADE0838120E9E5FC00393B0A /* ClapYourselfViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE0838020E9E5FC00393B0A /* ClapYourselfViewController.swift */; };
+		ADE0838420EA004200393B0A /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE0838320EA004200393B0A /* CameraController.swift */; };
+		ADE0838C20EA145C00393B0A /* LibraryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE0838B20EA145C00393B0A /* LibraryCollectionViewCell.swift */; };
+		ADE0838F20EA2C5400393B0A /* ShareImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE0838E20EA2C5400393B0A /* ShareImageViewController.swift */; };
+		ADE0839220EA3A3200393B0A /* ShowsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE0839120EA3A3200393B0A /* ShowsViewController.swift */; };
+		ADE0839520EA3A6900393B0A /* ShowCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE0839420EA3A6900393B0A /* ShowCollectionViewCell.swift */; };
+		ADE0839820EA441E00393B0A /* MusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE0839720EA441E00393B0A /* MusicViewController.swift */; };
+		ADE0839E20EA4BB800393B0A /* ShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE0839D20EA4BB800393B0A /* ShopViewController.swift */; };
+		AE399A8F213CF8B200C76D94 /* Model-Registration.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE399A8E213CF8B200C76D94 /* Model-Registration.swift */; };
+		AE399A91213CFB5E00C76D94 /* API-Claptone.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE399A90213CFB5E00C76D94 /* API-Claptone.swift */; };
+		AE399A93213CFDB800C76D94 /* Extension-Registration.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE399A92213CFDB800C76D94 /* Extension-Registration.swift */; };
+		AE399A95213D035F00C76D94 /* Konstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE399A94213D035F00C76D94 /* Konstant.swift */; };
+		AE4277242146AE9C00C273E8 /* Extension-ClapYourSelf.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4277232146AE9C00C273E8 /* Extension-ClapYourSelf.swift */; };
+		AE4277262146AEC600C273E8 /* YouTube_TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4277252146AEC600C273E8 /* YouTube_TableViewCell.swift */; };
+		AE91870C213D0B9C00B1AA44 /* Extension-SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE91870B213D0B9C00B1AA44 /* Extension-SignIn.swift */; };
+		AE91870E213D0CAF00B1AA44 /* Model-SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE91870D213D0CAF00B1AA44 /* Model-SignIn.swift */; };
+		AEA91F2E2119688B00ACCFAD /* Extension-Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA91F2D2119688B00ACCFAD /* Extension-Video.swift */; };
+		AEE1F992212D56F900A84D8C /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEE1F991212D56F900A84D8C /* Alamofire.framework */; };
+		AEE1F994212D56F900A84D8C /* AlamofireImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEE1F993212D56F900A84D8C /* AlamofireImage.framework */; };
+		AEE1F996212D573900A84D8C /* SVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEE1F995212D573900A84D8C /* SVProgressHUD.framework */; };
+		AEE683BA213D176400612A65 /* Extension-ShowsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE683B9213D176400612A65 /* Extension-ShowsVC.swift */; };
+		AEE683BC213D177300612A65 /* Model-ShowVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE683BB213D177300612A65 /* Model-ShowVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ADDB9CED20E7611F00D7C663 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADDB9CCD20E7611100D7C663 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADDB9CD420E7611100D7C663;
+			remoteInfo = Claptone;
+		};
+		ADDB9CF820E7611F00D7C663 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADDB9CCD20E7611100D7C663 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADDB9CD420E7611100D7C663;
+			remoteInfo = Claptone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		ADC43D0E20EBC14400FF662D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				ADC43CFE20EBC14300FF662D /* (null) in Embed Frameworks */,
+				ADC43D0020EBC14300FF662D /* (null) in Embed Frameworks */,
+				ADC43D0D20EBC14300FF662D /* (null) in Embed Frameworks */,
+				ADC43D0220EBC14300FF662D /* (null) in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		614D93161DE0A379CF8CC696 /* Pods-Claptone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Claptone.release.xcconfig"; path = "Pods/Target Support Files/Pods-Claptone/Pods-Claptone.release.xcconfig"; sourceTree = "<group>"; };
+		AD1F09E620E79836005A7520 /* Futura Heavy font.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Futura Heavy font.ttf"; sourceTree = "<group>"; };
+		AD1F09E720E79837005A7520 /* Futura Light Italic font.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Futura Light Italic font.ttf"; sourceTree = "<group>"; };
+		AD1F09E820E79838005A7520 /* futur.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = futur.ttf; sourceTree = "<group>"; };
+		AD1F09E920E79839005A7520 /* futura light bt.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "futura light bt.ttf"; sourceTree = "<group>"; };
+		AD1F09EA20E79839005A7520 /* unicode.futurab.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = unicode.futurab.ttf; sourceTree = "<group>"; };
+		AD1F09EB20E7983A005A7520 /* Futura Book font.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Futura Book font.ttf"; sourceTree = "<group>"; };
+		AD1F09EC20E7983A005A7520 /* Futura Bold font.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Futura Bold font.ttf"; sourceTree = "<group>"; };
+		AD1F09ED20E7983C005A7520 /* futura medium bt.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "futura medium bt.ttf"; sourceTree = "<group>"; };
+		AD1F09EE20E7983D005A7520 /* Futura Light font.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Futura Light font.ttf"; sourceTree = "<group>"; };
+		AD1F09EF20E7983D005A7520 /* Futura Medium Italic font.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Futura Medium Italic font.ttf"; sourceTree = "<group>"; };
+		AD1F09F020E7983E005A7520 /* tt0205m_.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = tt0205m_.ttf; sourceTree = "<group>"; };
+		AD1F09F120E7983E005A7520 /* Futura Heavy Italic font.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Futura Heavy Italic font.ttf"; sourceTree = "<group>"; };
+		AD1F09F220E7983F005A7520 /* Futura-CondensedLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Futura-CondensedLight.otf"; sourceTree = "<group>"; };
+		AD1F09F320E7983F005A7520 /* Futura Bold Italic font.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Futura Bold Italic font.ttf"; sourceTree = "<group>"; };
+		AD1F09F420E79840005A7520 /* futura medium condensed bt.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "futura medium condensed bt.ttf"; sourceTree = "<group>"; };
+		AD1F09F520E79840005A7520 /* Futura Book Italic font.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Futura Book Italic font.ttf"; sourceTree = "<group>"; };
+		AD1F09F620E79840005A7520 /* Futura XBlk BT.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Futura XBlk BT.ttf"; sourceTree = "<group>"; };
+		AD1F09F720E79841005A7520 /* Futura Extra Black font.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Futura Extra Black font.ttf"; sourceTree = "<group>"; };
+		AD1F09F920E79841005A7520 /* unicode.futurabb.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = unicode.futurabb.ttf; sourceTree = "<group>"; };
+		ADC43CDB20EB3CE900FF662D /* YTPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTPlayerView.h; sourceTree = "<group>"; };
+		ADC43CDC20EB3CE900FF662D /* YTPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTPlayerView.m; sourceTree = "<group>"; };
+		ADC43CDF20EB3CF300FF662D /* Assets.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Assets.bundle; sourceTree = "<group>"; };
+		ADC43CE020EB3CF300FF662D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADC43CE120EB3CF300FF662D /* YouTubeiOSPlayerHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YouTubeiOSPlayerHelper.h; sourceTree = "<group>"; };
+		ADC43CE520EB3D5200FF662D /* Claptone-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Claptone-Bridging-Header.h"; sourceTree = "<group>"; };
+		ADC43CE820EB3F9F00FF662D /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		ADC43CEA20EB3FC900FF662D /* HeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
+		ADC43CEE20EB413400FF662D /* VideoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTableViewCell.swift; sourceTree = "<group>"; };
+		ADC43CF120EB444B00FF662D /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		ADDB9CD520E7611100D7C663 /* Claptone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Claptone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADDB9CD820E7611100D7C663 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ADDB9CDA20E7611100D7C663 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ADDB9CDD20E7611100D7C663 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ADDB9CE020E7611100D7C663 /* Claptone.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Claptone.xcdatamodel; sourceTree = "<group>"; };
+		ADDB9CE220E7611F00D7C663 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ADDB9CE520E7611F00D7C663 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ADDB9CE720E7611F00D7C663 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADDB9CEC20E7611F00D7C663 /* ClaptoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClaptoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADDB9CF020E7611F00D7C663 /* ClaptoneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaptoneTests.swift; sourceTree = "<group>"; };
+		ADDB9CF220E7611F00D7C663 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADDB9CF720E7611F00D7C663 /* ClaptoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClaptoneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADDB9CFB20E7611F00D7C663 /* ClaptoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaptoneUITests.swift; sourceTree = "<group>"; };
+		ADDB9CFD20E7611F00D7C663 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADE0837720E9E47E00393B0A /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		ADE0837A20E9E4C800393B0A /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		ADE0837D20E9E4F200393B0A /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		ADE0838020E9E5FC00393B0A /* ClapYourselfViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClapYourselfViewController.swift; sourceTree = "<group>"; };
+		ADE0838320EA004200393B0A /* CameraController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
+		ADE0838520EA0B6B00393B0A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		ADE0838B20EA145C00393B0A /* LibraryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryCollectionViewCell.swift; sourceTree = "<group>"; };
+		ADE0838E20EA2C5400393B0A /* ShareImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareImageViewController.swift; sourceTree = "<group>"; };
+		ADE0839120EA3A3200393B0A /* ShowsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowsViewController.swift; sourceTree = "<group>"; };
+		ADE0839420EA3A6900393B0A /* ShowCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowCollectionViewCell.swift; sourceTree = "<group>"; };
+		ADE0839720EA441E00393B0A /* MusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicViewController.swift; sourceTree = "<group>"; };
+		ADE0839D20EA4BB800393B0A /* ShopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopViewController.swift; sourceTree = "<group>"; };
+		AE399A8E213CF8B200C76D94 /* Model-Registration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Model-Registration.swift"; sourceTree = "<group>"; };
+		AE399A90213CFB5E00C76D94 /* API-Claptone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "API-Claptone.swift"; sourceTree = "<group>"; };
+		AE399A92213CFDB800C76D94 /* Extension-Registration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension-Registration.swift"; sourceTree = "<group>"; };
+		AE399A94213D035F00C76D94 /* Konstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Konstant.swift; sourceTree = "<group>"; };
+		AE4277232146AE9C00C273E8 /* Extension-ClapYourSelf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension-ClapYourSelf.swift"; sourceTree = "<group>"; };
+		AE4277252146AEC600C273E8 /* YouTube_TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTube_TableViewCell.swift; sourceTree = "<group>"; };
+		AE91870B213D0B9C00B1AA44 /* Extension-SignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension-SignIn.swift"; sourceTree = "<group>"; };
+		AE91870D213D0CAF00B1AA44 /* Model-SignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Model-SignIn.swift"; sourceTree = "<group>"; };
+		AEA91F2D2119688B00ACCFAD /* Extension-Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension-Video.swift"; sourceTree = "<group>"; };
+		AEE1F991212D56F900A84D8C /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEE1F993212D56F900A84D8C /* AlamofireImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AlamofireImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEE1F995212D573900A84D8C /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEE683B9213D176400612A65 /* Extension-ShowsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension-ShowsVC.swift"; sourceTree = "<group>"; };
+		AEE683BB213D177300612A65 /* Model-ShowVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Model-ShowVC.swift"; sourceTree = "<group>"; };
+		E42F702C1416F0A70AD219B4 /* Pods-Claptone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Claptone.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Claptone/Pods-Claptone.debug.xcconfig"; sourceTree = "<group>"; };
+		FD7A44539337071B8855663F /* Pods_Claptone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Claptone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADDB9CD220E7611100D7C663 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEE1F996212D573900A84D8C /* SVProgressHUD.framework in Frameworks */,
+				AEE1F992212D56F900A84D8C /* Alamofire.framework in Frameworks */,
+				AEE1F994212D56F900A84D8C /* AlamofireImage.framework in Frameworks */,
+				11E874C29047813C58E003B2 /* Pods_Claptone.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADDB9CE920E7611F00D7C663 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADDB9CF420E7611F00D7C663 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09814B4065AC018D08C430E7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E42F702C1416F0A70AD219B4 /* Pods-Claptone.debug.xcconfig */,
+				614D93161DE0A379CF8CC696 /* Pods-Claptone.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ADC43CD920EB3CD200FF662D /* YoutubeHelper */ = {
+			isa = PBXGroup;
+			children = (
+				ADC43CDE20EB3CF300FF662D /* youtube-ios-player-helper */,
+				ADC43CDA20EB3CE900FF662D /* Classes */,
+			);
+			path = YoutubeHelper;
+			sourceTree = "<group>";
+		};
+		ADC43CDA20EB3CE900FF662D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				ADC43CDB20EB3CE900FF662D /* YTPlayerView.h */,
+				ADC43CDC20EB3CE900FF662D /* YTPlayerView.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		ADC43CDE20EB3CF300FF662D /* youtube-ios-player-helper */ = {
+			isa = PBXGroup;
+			children = (
+				ADC43CDF20EB3CF300FF662D /* Assets.bundle */,
+				ADC43CE020EB3CF300FF662D /* Info.plist */,
+				ADC43CE120EB3CF300FF662D /* YouTubeiOSPlayerHelper.h */,
+			);
+			path = "youtube-ios-player-helper";
+			sourceTree = "<group>";
+		};
+		ADC43CE420EB3CFB00FF662D /* Bridge */ = {
+			isa = PBXGroup;
+			children = (
+				ADC43CE520EB3D5200FF662D /* Claptone-Bridging-Header.h */,
+			);
+			path = Bridge;
+			sourceTree = "<group>";
+		};
+		ADC43CE620EB3F0800FF662D /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				ADC43CED20EB411500FF662D /* VideoTableViewCell */,
+				ADC43CE720EB3F1800FF662D /* HeaderView */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+		ADC43CE720EB3F1800FF662D /* HeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				ADC43CE820EB3F9F00FF662D /* HeaderView.swift */,
+				ADC43CEA20EB3FC900FF662D /* HeaderView.xib */,
+			);
+			path = HeaderView;
+			sourceTree = "<group>";
+		};
+		ADC43CED20EB411500FF662D /* VideoTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				ADC43CEE20EB413400FF662D /* VideoTableViewCell.swift */,
+			);
+			path = VideoTableViewCell;
+			sourceTree = "<group>";
+		};
+		ADC43CF020EB440F00FF662D /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				ADC43CF120EB444B00FF662D /* VideoViewController.swift */,
+				AEA91F2D2119688B00ACCFAD /* Extension-Video.swift */,
+				AE4277252146AEC600C273E8 /* YouTube_TableViewCell.swift */,
+			);
+			name = Video;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		ADDB9CCC20E7611100D7C663 = {
+			isa = PBXGroup;
+			children = (
+				ADDB9CD720E7611100D7C663 /* Claptone */,
+				ADDB9CEF20E7611F00D7C663 /* ClaptoneTests */,
+				ADDB9CFA20E7611F00D7C663 /* ClaptoneUITests */,
+				ADDB9CD620E7611100D7C663 /* Products */,
+				EA1BA9BA95A117BC4CDDFDA6 /* Frameworks */,
+				09814B4065AC018D08C430E7 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		ADDB9CD620E7611100D7C663 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADDB9CD520E7611100D7C663 /* Claptone.app */,
+				ADDB9CEC20E7611F00D7C663 /* ClaptoneTests.xctest */,
+				ADDB9CF720E7611F00D7C663 /* ClaptoneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADDB9CD720E7611100D7C663 /* Claptone */ = {
+			isa = PBXGroup;
+			children = (
+				AE399A8D213CF89D00C76D94 /* Model-Classes */,
+				AE24006D21185E9A00B3B319 /* Common-Classes */,
+				ADC43CE420EB3CFB00FF662D /* Bridge */,
+				ADC43CD920EB3CD200FF662D /* YoutubeHelper */,
+				ADE0838920EA140800393B0A /* View */,
+				ADE0838220EA003600393B0A /* CameraController */,
+				ADE0837520E9E41600393B0A /* Controller */,
+				ADDB9D8320E773D500D7C663 /* Fonts */,
+				ADDB9CD820E7611100D7C663 /* AppDelegate.swift */,
+				ADDB9CDA20E7611100D7C663 /* ViewController.swift */,
+				ADDB9CDC20E7611100D7C663 /* Main.storyboard */,
+				ADDB9CE220E7611F00D7C663 /* Assets.xcassets */,
+				ADDB9CE420E7611F00D7C663 /* LaunchScreen.storyboard */,
+				ADDB9CE720E7611F00D7C663 /* Info.plist */,
+				ADDB9CDF20E7611100D7C663 /* Claptone.xcdatamodeld */,
+			);
+			path = Claptone;
+			sourceTree = "<group>";
+		};
+		ADDB9CEF20E7611F00D7C663 /* ClaptoneTests */ = {
+			isa = PBXGroup;
+			children = (
+				ADDB9CF020E7611F00D7C663 /* ClaptoneTests.swift */,
+				ADDB9CF220E7611F00D7C663 /* Info.plist */,
+			);
+			path = ClaptoneTests;
+			sourceTree = "<group>";
+		};
+		ADDB9CFA20E7611F00D7C663 /* ClaptoneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ADDB9CFB20E7611F00D7C663 /* ClaptoneUITests.swift */,
+				ADDB9CFD20E7611F00D7C663 /* Info.plist */,
+			);
+			path = ClaptoneUITests;
+			sourceTree = "<group>";
+		};
+		ADDB9D8320E773D500D7C663 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				AD1F09E820E79838005A7520 /* futur.ttf */,
+				AD1F09EC20E7983A005A7520 /* Futura Bold font.ttf */,
+				AD1F09F320E7983F005A7520 /* Futura Bold Italic font.ttf */,
+				AD1F09EB20E7983A005A7520 /* Futura Book font.ttf */,
+				AD1F09F520E79840005A7520 /* Futura Book Italic font.ttf */,
+				AD1F09F720E79841005A7520 /* Futura Extra Black font.ttf */,
+				AD1F09E620E79836005A7520 /* Futura Heavy font.ttf */,
+				AD1F09F120E7983E005A7520 /* Futura Heavy Italic font.ttf */,
+				AD1F09E920E79839005A7520 /* futura light bt.ttf */,
+				AD1F09EE20E7983D005A7520 /* Futura Light font.ttf */,
+				AD1F09E720E79837005A7520 /* Futura Light Italic font.ttf */,
+				AD1F09ED20E7983C005A7520 /* futura medium bt.ttf */,
+				AD1F09F420E79840005A7520 /* futura medium condensed bt.ttf */,
+				AD1F09EF20E7983D005A7520 /* Futura Medium Italic font.ttf */,
+				AD1F09F620E79840005A7520 /* Futura XBlk BT.ttf */,
+				AD1F09F220E7983F005A7520 /* Futura-CondensedLight.otf */,
+				AD1F09F020E7983E005A7520 /* tt0205m_.ttf */,
+				AD1F09EA20E79839005A7520 /* unicode.futurab.ttf */,
+				AD1F09F920E79841005A7520 /* unicode.futurabb.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		ADE0837520E9E41600393B0A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ADC43CF020EB440F00FF662D /* Video */,
+				ADE0839C20EA4BA100393B0A /* Shop */,
+				ADE0839620EA43FB00393B0A /* Music */,
+				ADE0839020EA3A1400393B0A /* Shows */,
+				ADE0838D20EA2C3600393B0A /* ShareImage */,
+				ADE0837F20E9E5C100393B0A /* ClapYourself */,
+				ADE0837C20E9E4DE00393B0A /* ForgotPassword */,
+				ADE0837920E9E4B200393B0A /* SignIn */,
+				ADE0837620E9E43400393B0A /* Registration */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		ADE0837620E9E43400393B0A /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+				ADE0837720E9E47E00393B0A /* RegistrationViewController.swift */,
+				AE399A92213CFDB800C76D94 /* Extension-Registration.swift */,
+			);
+			path = Registration;
+			sourceTree = "<group>";
+		};
+		ADE0837920E9E4B200393B0A /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				ADE0837A20E9E4C800393B0A /* SignInViewController.swift */,
+				AE91870B213D0B9C00B1AA44 /* Extension-SignIn.swift */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		ADE0837C20E9E4DE00393B0A /* ForgotPassword */ = {
+			isa = PBXGroup;
+			children = (
+				ADE0837D20E9E4F200393B0A /* ForgotPasswordViewController.swift */,
+			);
+			path = ForgotPassword;
+			sourceTree = "<group>";
+		};
+		ADE0837F20E9E5C100393B0A /* ClapYourself */ = {
+			isa = PBXGroup;
+			children = (
+				ADE0838020E9E5FC00393B0A /* ClapYourselfViewController.swift */,
+				AE4277232146AE9C00C273E8 /* Extension-ClapYourSelf.swift */,
+			);
+			path = ClapYourself;
+			sourceTree = "<group>";
+		};
+		ADE0838220EA003600393B0A /* CameraController */ = {
+			isa = PBXGroup;
+			children = (
+				ADE0838320EA004200393B0A /* CameraController.swift */,
+			);
+			path = CameraController;
+			sourceTree = "<group>";
+		};
+		ADE0838920EA140800393B0A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ADC43CE620EB3F0800FF662D /* Video */,
+				ADE0839320EA3A5200393B0A /* Show */,
+				ADE0838A20EA141B00393B0A /* ClapYourself */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ADE0838A20EA141B00393B0A /* ClapYourself */ = {
+			isa = PBXGroup;
+			children = (
+				ADE0838B20EA145C00393B0A /* LibraryCollectionViewCell.swift */,
+			);
+			path = ClapYourself;
+			sourceTree = "<group>";
+		};
+		ADE0838D20EA2C3600393B0A /* ShareImage */ = {
+			isa = PBXGroup;
+			children = (
+				ADE0838E20EA2C5400393B0A /* ShareImageViewController.swift */,
+			);
+			path = ShareImage;
+			sourceTree = "<group>";
+		};
+		ADE0839020EA3A1400393B0A /* Shows */ = {
+			isa = PBXGroup;
+			children = (
+				ADE0839120EA3A3200393B0A /* ShowsViewController.swift */,
+				AEE683B9213D176400612A65 /* Extension-ShowsVC.swift */,
+			);
+			path = Shows;
+			sourceTree = "<group>";
+		};
+		ADE0839320EA3A5200393B0A /* Show */ = {
+			isa = PBXGroup;
+			children = (
+				ADE0839420EA3A6900393B0A /* ShowCollectionViewCell.swift */,
+			);
+			path = Show;
+			sourceTree = "<group>";
+		};
+		ADE0839620EA43FB00393B0A /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				ADE0839720EA441E00393B0A /* MusicViewController.swift */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		ADE0839C20EA4BA100393B0A /* Shop */ = {
+			isa = PBXGroup;
+			children = (
+				ADE0839D20EA4BB800393B0A /* ShopViewController.swift */,
+			);
+			path = Shop;
+			sourceTree = "<group>";
+		};
+		AE24006D21185E9A00B3B319 /* Common-Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AE399A90213CFB5E00C76D94 /* API-Claptone.swift */,
+				AE399A94213D035F00C76D94 /* Konstant.swift */,
+			);
+			path = "Common-Classes";
+			sourceTree = "<group>";
+		};
+		AE399A8D213CF89D00C76D94 /* Model-Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AE399A8E213CF8B200C76D94 /* Model-Registration.swift */,
+				AE91870D213D0CAF00B1AA44 /* Model-SignIn.swift */,
+				AEE683BB213D177300612A65 /* Model-ShowVC.swift */,
+			);
+			path = "Model-Classes";
+			sourceTree = "<group>";
+		};
+		EA1BA9BA95A117BC4CDDFDA6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AEE1F995212D573900A84D8C /* SVProgressHUD.framework */,
+				AEE1F991212D56F900A84D8C /* Alamofire.framework */,
+				AEE1F993212D56F900A84D8C /* AlamofireImage.framework */,
+				ADE0838520EA0B6B00393B0A /* AVFoundation.framework */,
+				FD7A44539337071B8855663F /* Pods_Claptone.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADDB9CD420E7611100D7C663 /* Claptone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADDB9D0020E7612000D7C663 /* Build configuration list for PBXNativeTarget "Claptone" */;
+			buildPhases = (
+				BC6EA43710DB5E4039AC7C8A /* [CP] Check Pods Manifest.lock */,
+				ADDB9CD120E7611100D7C663 /* Sources */,
+				ADDB9CD220E7611100D7C663 /* Frameworks */,
+				ADDB9CD320E7611100D7C663 /* Resources */,
+				ADC43D0E20EBC14400FF662D /* Embed Frameworks */,
+				59F40A22FE8CD10C4010FDAE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Claptone;
+			productName = Claptone;
+			productReference = ADDB9CD520E7611100D7C663 /* Claptone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ADDB9CEB20E7611F00D7C663 /* ClaptoneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADDB9D0320E7612000D7C663 /* Build configuration list for PBXNativeTarget "ClaptoneTests" */;
+			buildPhases = (
+				ADDB9CE820E7611F00D7C663 /* Sources */,
+				ADDB9CE920E7611F00D7C663 /* Frameworks */,
+				ADDB9CEA20E7611F00D7C663 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADDB9CEE20E7611F00D7C663 /* PBXTargetDependency */,
+			);
+			name = ClaptoneTests;
+			productName = ClaptoneTests;
+			productReference = ADDB9CEC20E7611F00D7C663 /* ClaptoneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ADDB9CF620E7611F00D7C663 /* ClaptoneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADDB9D0620E7612000D7C663 /* Build configuration list for PBXNativeTarget "ClaptoneUITests" */;
+			buildPhases = (
+				ADDB9CF320E7611F00D7C663 /* Sources */,
+				ADDB9CF420E7611F00D7C663 /* Frameworks */,
+				ADDB9CF520E7611F00D7C663 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADDB9CF920E7611F00D7C663 /* PBXTargetDependency */,
+			);
+			name = ClaptoneUITests;
+			productName = ClaptoneUITests;
+			productReference = ADDB9CF720E7611F00D7C663 /* ClaptoneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADDB9CCD20E7611100D7C663 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Rajat Pathak";
+				TargetAttributes = {
+					ADDB9CD420E7611100D7C663 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					ADDB9CEB20E7611F00D7C663 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = ADDB9CD420E7611100D7C663;
+					};
+					ADDB9CF620E7611F00D7C663 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = ADDB9CD420E7611100D7C663;
+					};
+				};
+			};
+			buildConfigurationList = ADDB9CD020E7611100D7C663 /* Build configuration list for PBXProject "Claptone" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADDB9CCC20E7611100D7C663;
+			productRefGroup = ADDB9CD620E7611100D7C663 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADDB9CD420E7611100D7C663 /* Claptone */,
+				ADDB9CEB20E7611F00D7C663 /* ClaptoneTests */,
+				ADDB9CF620E7611F00D7C663 /* ClaptoneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADDB9CD320E7611100D7C663 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD1F0A1C20E7985A005A7520 /* Futura XBlk BT.ttf in Resources */,
+				ADC43CEB20EB3FC900FF662D /* HeaderView.xib in Resources */,
+				AD1F0A1420E7985A005A7520 /* Futura Heavy font.ttf in Resources */,
+				AD1F0A1320E7985A005A7520 /* Futura Extra Black font.ttf in Resources */,
+				AD1F0A1820E7985A005A7520 /* Futura Light Italic font.ttf in Resources */,
+				AD1F0A0F20E7985A005A7520 /* Futura Bold font.ttf in Resources */,
+				AD1F0A1520E7985A005A7520 /* Futura Heavy Italic font.ttf in Resources */,
+				AD1F0A2020E7985A005A7520 /* unicode.futurabb.ttf in Resources */,
+				ADDB9CE620E7611F00D7C663 /* LaunchScreen.storyboard in Resources */,
+				ADC43CE320EB3CF300FF662D /* Info.plist in Resources */,
+				AD1F0A1020E7985A005A7520 /* Futura Bold Italic font.ttf in Resources */,
+				AD1F0A1B20E7985A005A7520 /* Futura Medium Italic font.ttf in Resources */,
+				ADDB9CE320E7611F00D7C663 /* Assets.xcassets in Resources */,
+				ADDB9CDE20E7611100D7C663 /* Main.storyboard in Resources */,
+				AD1F0A1920E7985A005A7520 /* futura medium bt.ttf in Resources */,
+				AD1F0A1620E7985A005A7520 /* futura light bt.ttf in Resources */,
+				AD1F0A1720E7985A005A7520 /* Futura Light font.ttf in Resources */,
+				AD1F0A1120E7985A005A7520 /* Futura Book font.ttf in Resources */,
+				AD1F0A1D20E7985A005A7520 /* Futura-CondensedLight.otf in Resources */,
+				AD1F0A1F20E7985A005A7520 /* unicode.futurab.ttf in Resources */,
+				AD1F0A1A20E7985A005A7520 /* futura medium condensed bt.ttf in Resources */,
+				AD1F0A1220E7985A005A7520 /* Futura Book Italic font.ttf in Resources */,
+				AD1F0A0E20E7985A005A7520 /* futur.ttf in Resources */,
+				AD1F0A1E20E7985A005A7520 /* tt0205m_.ttf in Resources */,
+				ADC43CE220EB3CF300FF662D /* Assets.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADDB9CEA20E7611F00D7C663 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADDB9CF520E7611F00D7C663 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		59F40A22FE8CD10C4010FDAE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Claptone/Pods-Claptone-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ACFloatingTextfield-Swift/ACFloatingTextfield_Swift.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/TPKeyboardAvoiding/TPKeyboardAvoiding.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ACFloatingTextfield_Swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TPKeyboardAvoiding.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Claptone/Pods-Claptone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC6EA43710DB5E4039AC7C8A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Claptone-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADDB9CD120E7611100D7C663 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE399A95213D035F00C76D94 /* Konstant.swift in Sources */,
+				ADC43CEF20EB413400FF662D /* VideoTableViewCell.swift in Sources */,
+				AEE683BC213D177300612A65 /* Model-ShowVC.swift in Sources */,
+				ADE0839220EA3A3200393B0A /* ShowsViewController.swift in Sources */,
+				AE399A8F213CF8B200C76D94 /* Model-Registration.swift in Sources */,
+				AE4277262146AEC600C273E8 /* YouTube_TableViewCell.swift in Sources */,
+				ADC43CF220EB444B00FF662D /* VideoViewController.swift in Sources */,
+				ADDB9CE120E7611100D7C663 /* Claptone.xcdatamodeld in Sources */,
+				AE399A91213CFB5E00C76D94 /* API-Claptone.swift in Sources */,
+				ADE0838C20EA145C00393B0A /* LibraryCollectionViewCell.swift in Sources */,
+				ADDB9CDB20E7611100D7C663 /* ViewController.swift in Sources */,
+				ADE0837E20E9E4F200393B0A /* ForgotPasswordViewController.swift in Sources */,
+				AE4277242146AE9C00C273E8 /* Extension-ClapYourSelf.swift in Sources */,
+				ADE0837820E9E47E00393B0A /* RegistrationViewController.swift in Sources */,
+				ADE0838120E9E5FC00393B0A /* ClapYourselfViewController.swift in Sources */,
+				AE399A93213CFDB800C76D94 /* Extension-Registration.swift in Sources */,
+				ADE0839520EA3A6900393B0A /* ShowCollectionViewCell.swift in Sources */,
+				ADC43CDD20EB3CE900FF662D /* YTPlayerView.m in Sources */,
+				AE91870E213D0CAF00B1AA44 /* Model-SignIn.swift in Sources */,
+				ADE0837B20E9E4C800393B0A /* SignInViewController.swift in Sources */,
+				ADE0839820EA441E00393B0A /* MusicViewController.swift in Sources */,
+				AEA91F2E2119688B00ACCFAD /* Extension-Video.swift in Sources */,
+				ADE0838420EA004200393B0A /* CameraController.swift in Sources */,
+				ADE0838F20EA2C5400393B0A /* ShareImageViewController.swift in Sources */,
+				ADE0839E20EA4BB800393B0A /* ShopViewController.swift in Sources */,
+				AE91870C213D0B9C00B1AA44 /* Extension-SignIn.swift in Sources */,
+				AEE683BA213D176400612A65 /* Extension-ShowsVC.swift in Sources */,
+				ADDB9CD920E7611100D7C663 /* AppDelegate.swift in Sources */,
+				ADC43CE920EB3FA000FF662D /* HeaderView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADDB9CE820E7611F00D7C663 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADDB9CF120E7611F00D7C663 /* ClaptoneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADDB9CF320E7611F00D7C663 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADDB9CFC20E7611F00D7C663 /* ClaptoneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ADDB9CEE20E7611F00D7C663 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADDB9CD420E7611100D7C663 /* Claptone */;
+			targetProxy = ADDB9CED20E7611F00D7C663 /* PBXContainerItemProxy */;
+		};
+		ADDB9CF920E7611F00D7C663 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADDB9CD420E7611100D7C663 /* Claptone */;
+			targetProxy = ADDB9CF820E7611F00D7C663 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ADDB9CDC20E7611100D7C663 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADDB9CDD20E7611100D7C663 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ADDB9CE420E7611F00D7C663 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADDB9CE520E7611F00D7C663 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADDB9CFE20E7612000D7C663 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "Claptone/Bridge/Claptone-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ADDB9CFF20E7612000D7C663 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_BRIDGING_HEADER = "Claptone/Bridge/Claptone-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADDB9D0120E7612000D7C663 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E42F702C1416F0A70AD219B4 /* Pods-Claptone.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 468K8LWB7D;
+				INFOPLIST_FILE = Claptone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = app.appentus.Claptons;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR";
+				SWIFT_OBJC_BRIDGING_HEADER = "Claptone/Bridge/Claptone-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		ADDB9D0220E7612000D7C663 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 614D93161DE0A379CF8CC696 /* Pods-Claptone.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 468K8LWB7D;
+				INFOPLIST_FILE = Claptone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = app.appentus.Claptons;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR";
+				SWIFT_OBJC_BRIDGING_HEADER = "Claptone/Bridge/Claptone-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		ADDB9D0420E7612000D7C663 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9426P7H748;
+				INFOPLIST_FILE = ClaptoneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = appentus.ClaptoneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Claptone.app/Claptone";
+			};
+			name = Debug;
+		};
+		ADDB9D0520E7612000D7C663 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9426P7H748;
+				INFOPLIST_FILE = ClaptoneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = appentus.ClaptoneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Claptone.app/Claptone";
+			};
+			name = Release;
+		};
+		ADDB9D0720E7612000D7C663 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9426P7H748;
+				INFOPLIST_FILE = ClaptoneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = appentus.ClaptoneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Claptone/Bridge/Claptone-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Claptone;
+			};
+			name = Debug;
+		};
+		ADDB9D0820E7612000D7C663 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9426P7H748;
+				INFOPLIST_FILE = ClaptoneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = appentus.ClaptoneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Claptone/Bridge/Claptone-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Claptone;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADDB9CD020E7611100D7C663 /* Build configuration list for PBXProject "Claptone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADDB9CFE20E7612000D7C663 /* Debug */,
+				ADDB9CFF20E7612000D7C663 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADDB9D0020E7612000D7C663 /* Build configuration list for PBXNativeTarget "Claptone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADDB9D0120E7612000D7C663 /* Debug */,
+				ADDB9D0220E7612000D7C663 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADDB9D0320E7612000D7C663 /* Build configuration list for PBXNativeTarget "ClaptoneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADDB9D0420E7612000D7C663 /* Debug */,
+				ADDB9D0520E7612000D7C663 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADDB9D0620E7612000D7C663 /* Build configuration list for PBXNativeTarget "ClaptoneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADDB9D0720E7612000D7C663 /* Debug */,
+				ADDB9D0820E7612000D7C663 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ADDB9CDF20E7611100D7C663 /* Claptone.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ADDB9CE020E7611100D7C663 /* Claptone.xcdatamodel */,
+			);
+			currentVersion = ADDB9CE020E7611100D7C663 /* Claptone.xcdatamodel */;
+			path = Claptone.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = ADDB9CCD20E7611100D7C663 /* Project object */;
+}

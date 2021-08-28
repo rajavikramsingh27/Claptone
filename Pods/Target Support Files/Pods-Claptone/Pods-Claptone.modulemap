@@ -1,0 +1,6 @@
+framework module Pods_Claptone {
+  umbrella header "Pods-Claptone-umbrella.h"
+
+  export *
+  module * { export * }
+}
